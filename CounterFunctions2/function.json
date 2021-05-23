@@ -1,0 +1,16 @@
+/*{
+    "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "events",
+      "direction": "in",
+      "eventHubName": "sketeloneventhub",
+      "connection": "receiverConnectionString",
+      "cardinality": "many",
+      "consumerGroup": "$Default",
+      "dataType": "binary"
+    }
+  ]
+}*/
+
+
